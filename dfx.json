@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "canisters": {
+    "erc20_canister": {
+      "type": "rust",
+      "package": "erc20_canister",
+      "candid": "src/erc20_canister/erc20_canister.did"
+    },
+    "registry_canister": {
+      "type": "rust",
+      "package": "registry_canister",
+      "candid": "src/registry_canister/registry_canister.did"
+    }
+  },
+  "defaults": {
+    "build": {
+      "packtool": "",
+      "args": ""
+    }
+  },
+  "output_env_file": ".env"
+}

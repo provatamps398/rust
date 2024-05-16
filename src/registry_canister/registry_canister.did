@@ -1,0 +1,5 @@
+service : {
+    "get_latest_block": () -> (text);
+    "call_pool_count": () -> (nat);
+    "call_coin_count": () -> (nat);
+}

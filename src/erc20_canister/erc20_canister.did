@@ -1,0 +1,8 @@
+service : {
+    "get_latest_block": () -> (text);
+    "call_name": (text) -> (text);
+    "call_symbol": (text) -> (text);
+    "call_decimals": (text) -> (nat8);
+    "call_total_supply": (text) -> (nat);
+    "call_balance_of": (text, text) -> (nat);
+}
